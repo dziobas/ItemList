@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color
+		name="button_bar_default_start">#FFFFFFFF</color>
+	<color
+		name="button_bar_default_end">#FFDDDDDD</color>
+	<color
+		name="button_bar_focused_start">#FFDDDDDD</color>
+	<color
+		name="button_bar_focused_end">#FFBBBBBB</color>
+	<color
+		name="button_bar_pressed_start">#FFBBBBBB</color>
+	<color
+		name="button_bar_pressed_end">#FF999999</color>
+	<color
+		name="button_bar_border_default">#FFEEEEEE</color>
+	<color
+		name="button_bar_border_focused">#FFFFFFFF</color>
+	<color
+		name="button_bar_border_pressed">#FF777777</color>
+		
+	<color
+		name="item_row_default_start">#FFFFFFFF</color>
+	<color
+		name="item_row_default_end">#FFDDDDDD</color>
+	<color
+		name="item_row_focused_start">#FFDDDDDD</color>
+	<color
+		name="item_row_focused_end">#FFBBBBBB</color>
+	<color
+		name="item_row_pressed_start">#FFBBBBBB</color>
+	<color
+		name="item_row_pressed_end">#FF999999</color>
+	<color
+		name="item_row_border_default">#FF000000</color>
+	<color
+		name="item_row_border_focused">#FFFFFFFF</color>
+	<color
+		name="item_row_border_pressed">#FF777777</color>
+</resources>

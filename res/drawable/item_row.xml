@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:state_focused="true"
+		android:state_enabled="true">
+		<shape
+			android:shape="rectangle">
+			<corners
+				android:radius="@dimen/item_row_corner_radius" />
+			<gradient
+				android:startColor="@color/item_row_focused_start"
+				android:endColor="@color/item_row_focused_end"
+				android:angle="270" />
+			<stroke
+				android:width="@dimen/item_row_border_width"
+				android:color="@color/item_row_border_focused" />
+		</shape>
+	</item>
+	<item
+		android:state_pressed="true"
+		android:state_enabled="true">
+		<shape
+			android:shape="rectangle">
+			<corners
+				android:radius="@dimen/item_row_corner_radius" />
+			<gradient
+				android:startColor="@color/item_row_pressed_start"
+				android:endColor="@color/item_row_pressed_end"
+				android:angle="270" />
+			<stroke
+				android:width="@dimen/item_row_border_width"
+				android:color="@color/item_row_border_pressed" />
+		</shape>
+	</item>	
+	<item>
+		<shape
+			android:shape="rectangle">
+			<corners
+				android:radius="@dimen/item_row_corner_radius" />
+			<gradient
+				android:startColor="@color/item_row_default_start"
+				android:endColor="@color/item_row_default_end"
+				android:angle="270" />
+			<stroke
+				android:width="@dimen/item_row_border_width"
+				android:color="@color/item_row_border_default" />
+		</shape>
+	</item>
+</selector>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:id="@+id/buttons"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+	<pl.dziobas.widget.ResizableButton
+		android:id="@+id/button_a"
+		android:text="Button A"
+		android:padding="10dp"
+		android:layout_margin="1dp"
+		android:background="@drawable/button_bar"
+		android:gravity="bottom|center_horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1" />
+	<pl.dziobas.widget.ResizableButton
+		android:id="@+id/button_b"
+		android:padding="10dp"
+		android:layout_margin="1dp"
+		android:background="@drawable/button_bar"
+		android:gravity="bottom|center_horizontal"
+		android:text="Button B"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1" />
+	<pl.dziobas.widget.ResizableButton
+		android:id="@+id/button_c"
+		android:padding="10dp"
+		android:layout_margin="1dp"
+		android:background="@drawable/button_bar"
+		android:gravity="bottom|center_horizontal"
+		android:text="Button C"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1" />
+</LinearLayout>

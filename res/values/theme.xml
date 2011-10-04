@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style
+		name="NoTitleBar"
+		parent="android:Theme">
+		<item
+			name="android:windowNoTitle">true</item>
+		<item name="android:textSize">14sp</item>
+	</style>
+</resources>
